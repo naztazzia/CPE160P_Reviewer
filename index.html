@@ -82,14 +82,14 @@ background:rgba(255,255,255,0.03);color:#e6eef8}
 <script>
 // -------------------- TERMS --------------------
 const TERMS=[
-  {term:"Analog-to-Digital Conversion (ADC)",definition:"The process by which analog signals are converted to their digitized (discrete) form."},
+  {term:"Analog-to-Digital Conversion",definition:"The process by which analog signals are converted to their digitized (discrete) form."},
   {term:"Sampling",definition:"Taking measurements of the analog signal at regular intervals of time. Sampling rate must satisfy the Nyquist criterion."},
   {term:"Nyquist Criterion",definition:"Sampling rate must be at least twice the highest frequency in the signal to avoid aliasing."},
   {term:"Quantization",definition:"Conversion of continuous sample amplitudes into discrete amplitude levels, introducing quantization error."},
   {term:"Quantization Error",definition:"The difference between the actual analog value and its quantized digital value."},
   {term:"Encoding",definition:"Assigning binary codes (bits) to each quantization level; number of levels L=2ⁿ."},
   {term:"Resolution (ADC)",definition:"The smallest detectable change in input voltage corresponding to one quantization step."},
-  {term:"Successive Approximation Register (SAR) ADC",definition:"ADC using DAC and comparator to perform a binary search for input voltage; common 8–16-bit ADC."},
+  {term:"Successive Approximation Register ADC",definition:"ADC using DAC and comparator to perform a binary search for input voltage; common 8–16-bit ADC."},
   {term:"R-2R DAC",definition:"Resistor ladder DAC using only R and 2R values; compact and common in ICs."},
   {term:"Weighted Resistor DAC",definition:"DAC with resistors weighted by binary significance; simple but large for many bits."},
   {term:"DAC0800",definition:"Example of an 8-bit general-purpose DAC with ~100 ns conversion time."},
@@ -97,8 +97,8 @@ const TERMS=[
   {term:"Offset Error",definition:"Constant error independent of input."},
   {term:"Gain Error",definition:"Difference between actual and ideal slope (calibration error)."},
   {term:"Nonlinearity Error",definition:"Deviation from ideal linear transfer curve."},
-  {term:"Integral Nonlinearity (INL)",definition:"Worst-case deviation from ideal transfer curve."},
-  {term:"Differential Nonlinearity (DNL)",definition:"Difference between actual and ideal step size between codes."},
+  {term:"Integral Nonlinearity",definition:"Worst-case deviation from ideal transfer curve."},
+  {term:"Differential Nonlinearity",definition:"Difference between actual and ideal step size between codes."},
   {term:"Temperature-dependent Error",definition:"Error caused by temperature changes or self-heating."},
   {term:"Hysteresis Error",definition:"Difference between increasing and decreasing input values that produce the same output."},
   {term:"Resolution Error",definition:"Inability to detect change smaller than one quantization step."},
@@ -244,3 +244,4 @@ document.getElementById('startQuiz').onclick=startQuiz;
 </script>
 </body>
 </html>
+
